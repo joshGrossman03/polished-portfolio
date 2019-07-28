@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+
+
+  <!-- Google Icon Library-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    integrity="sha256-ujE/ZUB6CMZmyJSgQjXGCF4sRRneOimQplBVLu8OU5w=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+
+<body class="has-navbar-fixed-bottom" id="home">
+
+  <nav class="navbar is-fixed-bottom" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#home">
+        <img src="./assets/images/Josh grossman.png">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" id="home-link" style="font-size:40px;font-family: 'Lato', sans-serif;">
+          Home
+        </a>
+
+        <a class="navbar-item" id="about" style="font-size:40px;font-family: 'Lato', sans-serif;" href="#about-me">
+          About
+        </a>
+        <a class="navbar-item" id="skills" style="font-size:40px;font-family: 'Lato', sans-serif;">
+          Skills
+        </a>
+        <a class="navbar-item" id="experience" style="font-size:40px;font-family: 'Lato', sans-serif;"
+          href="#work-experience">
+          Experience
+        </a>
+        <a class="navbar-item" id="education" style="font-size:40px;font-family: 'Lato', sans-serif;" href="#education">
+          Education
+        </a>
+        <a class="navbar-item" id="portfolio" style="font-size:40px;font-family: 'Lato', sans-serif;" href="#portfolio">
+          Portfolio
+        </a>
+        <a class="navbar-item" id="contact" style="font-size:40px;font-family: 'Lato', sans-serif;" href="#contact">
+          Contact
+        </a>
+
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <div class="parallax-container" id="home-page" style="height:100vh;">
+    <div class="parallax"><img id="parallax-bgd"
+        src="./assets/images/abstract-expressionism-abstract-painting-acrylic-1919287.jpg"></div>
+    <div class="row">
+      <div class="col m5 s12"></div>
+      <div class="col s12 m2" style="margin-top: 40vh;" align="center">
+        <img src="./assets/images/Josh grossman.png">
+      </div>
+      <div class="col m5 s12"></div>
+
+    </div>
+  </div>
+
+
+
+  <div class="row" id="about-me" style="background-color: #248BB7">
+    <div class="col s12 m12" style="background-color:  #248BB7; color:white;border-right:none; border-left:none;">
+      <p align="center" class="section-title">
+        About
+        Me</p>
+      <p align="center" class="sub-section-title">A short Introduction about myself</p>
+    </div>
+  </div>
+  <div class="row" style="background-color: #248BB7">
+    <div align="center" class="col s12 m2">
+      <img src="./assets/images/IMG_16042.jpg" alt="" class="circle responsive-img" style="margin-top:450px;">
+      <!-- notice the "circle" class -->
+    </div>
+    <div class="col s12 m6">
+      <br><br>
+
+      <blockquote style=" font-family: 'Pontano Sans', sans-serif;font-size: 45px;color: white;margin-top:400px;">
+
+        lorem lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Sapiente obcaecati provident totam neque quam maiores, ea alias adipisci assumenda.
+        Ullam incidunt, reprehenderit commodi esse distinctio totam officia doloremque. Quia,
+        repudiandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorem
+        ipsa maiores placeat temporibus accusamus, amet quibusdam eaque qui expedita aspernatur
+        vero officiis ullam iste iure incidunt, at dolores illum.
+      </blockquote>
+    </div>
+    <div class="col m4 s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="./assets/images/skylineArt1.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="background-color: #248BB7;" id="download-resume">
+    <div class="col s12 m12 center-align" style="margin-top: 300px">
+      <a class="waves-effect waves-light btn"
+        style="height:150px;font-family:'Pontano Sans', sans-serif; font-size:35px; margin-bottom:380px;background-color:#3f3f3f;line-height:38px;font-display: center;padding-top:55px;"
+        href="./assets/images/resume.pdf" target="_blank"><strong> Download Printable Resume</strong></a>
+    </div>
+  </div>
+
+  <div class="row" id="work-experience">
+    <div class="col xs12 s12 m12" style="background-color: #3f3f3f; color:white;">
+      <p align="center" class="section-title">
+        Work Experience</p>
+      <p align="center" class="sub-section-title">My Previous Associations</p>
+    </div>
+  </div>
+  <div class="row" style="background-color: #3f3f3f; color:white;"">
+    <div class=" col m1 s12"></div>
+  <div class="col m2 s12">
+
+    <img src="./assets/images/txdot.experience.png" class="circle responsive-img">
+
+
+  </div>
+  <div class="col m8 s12">
+    <blockquote class="experience-blockquote">
+
+      lorem lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Sapiente obcaecati provident totam neque quam maiores, ea alias adipisci assumenda.
+      Ullam incidunt, reprehenderit commodi esse distinctio totam officia doloremque. Quia,
+      repudiandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorem
+      ipsa maiores placeat temporibus accusamus, amet quibusdam eaque qui expedita aspernatur
+      vero officiis ullam iste iure incidunt, at dolores illum.
+    </blockquote>
+  </div>
+  </div>
+  <div class="row" style="background-color: #3f3f3f; color:white;"">
+    <div class=" col m1 s12"></div>
+  <div class="col m2 s12">
+
+    <img src="./assets/images/progressive.experience.png" class="circle responsive-img">
+
+
+  </div>
+  <div class="col m8 s12">
+    <blockquote class="experience-blockquote">
+
+      lorem lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Sapiente obcaecati provident totam neque quam maiores, ea alias adipisci assumenda.
+      Ullam incidunt, reprehenderit commodi esse distinctio totam officia doloremque. Quia,
+      repudiandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorem
+      ipsa maiores placeat temporibus accusamus, amet quibusdam eaque qui expedita aspernatur
+      vero officiis ullam iste iure incidunt, at dolores illum.
+    </blockquote>
+  </div>
+  </div>
+  <div class="row" style="background-color: #3f3f3f; color:white;"">
+    <div class=" col m1 s12">
+
+  </div>
+  <div class="col m2 s12">
+
+    <img src="./assets/images/att.experience.png" class="circle responsive-img">
+
+
+  </div>
+  <div class="col m8 s12">
+    <blockquote class="experience-blockquote">
+
+      lorem lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Sapiente obcaecati provident totam neque quam maiores, ea alias adipisci assumenda.
+      Ullam incidunt, reprehenderit commodi esse distinctio totam officia doloremque. Quia,
+      repudiandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorem
+      ipsa maiores placeat temporibus accusamus, amet quibusdam eaque qui expedita aspernatur
+      vero officiis ullam iste iure incidunt, at dolores illum.
+    </blockquote>
+  </div>
+  </div>
+  <div class="row" style="background-color: #3f3f3f; color:white;"">
+    <div class=" col m1 s12">
+
+  </div>
+  <div class="col m2 s12">
+
+    <img src="./assets/images/bakerhughes.experience.png" class="circle responsive-img">
+
+
+  </div>
+  <div class="col m8 s12">
+    <blockquote class="experience-blockquote">
+
+      lorem lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Sapiente obcaecati provident totam neque quam maiores, ea alias adipisci assumenda.
+      Ullam incidunt, reprehenderit commodi esse distinctio totam officia doloremque. Quia,
+      repudiandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorem
+      ipsa maiores placeat temporibus accusamus, amet quibusdam eaque qui expedita aspernatur
+      vero officiis ullam iste iure incidunt, at dolores illum.
+    </blockquote>
+  </div>
+  </div>
+  <div class="row" style="background-color: #3f3f3f; color:white;"">
+    <div class=" col m1 s12">
+
+  </div>
+  <div class="col m2 s12">
+
+    <img src="./assets/images/tceq.experience.png" class="circle responsive-img">
+
+
+  </div>
+  <div class="col m8 s12">
+    <blockquote class="experience-blockquote">
+
+      lorem lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Sapiente obcaecati provident totam neque quam maiores, ea alias adipisci assumenda.
+      Ullam incidunt, reprehenderit commodi esse distinctio totam officia doloremque. Quia,
+      repudiandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorem
+      ipsa maiores placeat temporibus accusamus, amet quibusdam eaque qui expedita aspernatur
+      vero officiis ullam iste iure incidunt, at dolores illum.
+    </blockquote>
+  </div>
+  </div>
+  <div class="row" style="background-color: #3f3f3f; color:white;"">
+    <div class=" col m4 s12"></div>
+  <div class=" col m4 s12">
+    <div class="card">
+      <div class="card-image">
+        <img src="./assets/images/skylineArt2.png" style="margin-bottom:100px;">
+      </div>
+    </div>
+  </div>
+  <div class="col m4 s12"></div>
+  </div>
+
+  <div class="row" id="portfolio-section" style="background-color: #53c7f9;">
+      <div class="row" id="work-experience">
+          <div class="col xs12 s12 m12" style="background-color: #53c7f9; color:white;">
+            <p align="center" class="section-title">
+              Portfolio</p>
+            <p align="center" class="sub-section-title">Sampling of Projects</p>
+          </div>
+        </div>
+    <div class="col xs12 s12 m4"></div>
+    <div class="col xs12 s12 m4"></div>
+    <div class="col xs12 s12 m4"></div>
+
+    
+    <div class="row">
+        <div class="col xs12 s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://github.com/joshGrossman03/giphy_api.git"target="_blank">
+              <img src="./assets/images/Screen Shot 2019-07-27 at 21.03.09.png">
+            </a>
+              <span class="card-title">Giphtastic</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content" style="margin-bottom:200px;background-color: #3f3f3f;color:white;">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+                require little markup to use effectively.<a href="https://github.com/joshGrossman03/giphy_api.git" target="_blank"> GitHub Repo</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col xs12 s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://joshgrossman03.github.io/train_scheduler/" target="_blank">
+              <img src="./assets/images/Screen Shot 2019-07-27 at 20.54.49.png">
+              </a>
+              <span class="card-title">Train Scheduler</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content" style="margin-bottom:200px;background-color: #3f3f3f;color:white;">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+                require little markup to use effectively.<a href="https://github.com/joshGrossman03/train_scheduler.git"target="_blank"> GitHub Repo</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col xs12 s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://tp222.github.io/Project_1/#" target="_blank">
+              <img src="./assets/images/ethnicEats.png">
+            </a>
+              <span class="card-title">Ethnic Eats</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content" style="margin-bottom:200px;background-color: #3f3f3f;color:white;">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+                require little markup to use effectively.<a href="https://github.com/joshGrossman03/Project_1.git" target="_blank"> GitHub Repo</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col xs12 s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/images/austin-skyline.jpg">
+            <span class="card-title">Austin, Texas</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content" style="margin-bottom:200px;background-color: #3f3f3f;color:white;">
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+              require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col xs12 s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/images/austin-skyline.jpg">
+            <span class="card-title">Austin, Texas</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content" style="margin-bottom:200px;background-color: #3f3f3f;color:white;">
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+              require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col xs12 s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/images/austin-skyline.jpg">
+            <span class="card-title">Austin, Texas</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content" style="margin-bottom:200px;background-color: #3f3f3f;color:white;">
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
+              require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
+    <!-- Add additional services that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
