@@ -1,4 +1,11 @@
 
+@media only screen and (max-width: 768px) {
+    #main-logo {
+      height:50px;
+    }
+  }
+
+
 
 #parallax-bgd{
     width: 100%;
